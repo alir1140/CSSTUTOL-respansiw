@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    font-size: 1rem;
+}
+.maincontainer{
+    max-width: 1800px;
+    width: 100%;
+    font-size: 1em;
+    margin: 0 auto;
+}
+header , footer{
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
+    padding: 20px;
+}
+header nav{
+    display: flex;
+}
+header nav span{
+    border: 1px solid white;
+    border-radius: 10%;
+    margin-left: 5px;
+    padding: 5px 10px;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+} 
+main section{
+    overflow: hidden;
+}
+main .content{
+    padding: 20px;
+}
+main .menu{
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
